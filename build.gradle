@@ -1,0 +1,6 @@
+apply plugin: 'java'
+
+jar {
+	baseName = 'ru.cft.test'
+	manifest.attributes("Main-Class": "ru.cft.test.HelloWorld");
+}
